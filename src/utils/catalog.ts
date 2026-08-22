@@ -1,0 +1,61 @@
+import type { CatalogProduct } from '@/types';
+
+export const CATALOG: CatalogProduct[] = [
+  { id: 1, name: 'Whole Milk', brand: 'Organic Valley', category: 'dairy', price: 3.99, tags: ['organic', 'breakfast'] },
+  { id: 2, name: 'Cheddar Cheese', brand: 'Tillamook', category: 'dairy', price: 5.49, tags: ['sliced', 'sandwich'] },
+  { id: 3, name: 'Greek Yogurt', brand: 'Chobani', category: 'dairy', price: 1.29, tags: ['snack', 'protein'] },
+  { id: 4, name: 'Unsalted Butter', brand: 'Land O Lakes', category: 'dairy', price: 4.79, tags: ['baking'] },
+  { id: 5, name: 'Large Eggs', brand: 'Vital Farms', category: 'dairy', price: 4.99, tags: ['breakfast', 'pasture raised'] },
+  { id: 6, name: 'Heavy Cream', brand: 'Horizon', category: 'dairy', price: 3.49, tags: ['cooking'] },
+
+  { id: 7, name: 'Gala Apples', brand: 'Washington', category: 'produce', price: 1.99, tags: ['fruit', 'snack'] },
+  { id: 8, name: 'Bananas', brand: 'Dole', category: 'produce', price: 0.59, tags: ['fruit', 'snack'] },
+  { id: 9, name: 'Roma Tomatoes', brand: 'Local Farm', category: 'produce', price: 2.49, tags: ['vegetable', 'salad'] },
+  { id: 10, name: 'Yellow Onions', brand: 'Local Farm', category: 'produce', price: 1.29, tags: ['vegetable', 'cooking'] },
+  { id: 11, name: 'Russet Potatoes', brand: 'Idaho', category: 'produce', price: 3.99, tags: ['vegetable', 'baking'] },
+  { id: 12, name: 'Baby Carrots', brand: 'Bolthouse', category: 'produce', price: 2.99, tags: ['vegetable', 'snack'] },
+  { id: 13, name: 'Baby Spinach', brand: 'Earthbound Farm', category: 'produce', price: 4.49, tags: ['organic', 'salad'] },
+  { id: 14, name: 'Avocado', brand: 'Mexican', category: 'produce', price: 1.49, tags: ['fruit', 'guacamole'] },
+  { id: 15, name: 'Strawberries', brand: 'Driscoll', category: 'produce', price: 3.99, tags: ['fruit', 'snack'] },
+  { id: 16, name: 'Broccoli', brand: 'Local Farm', category: 'produce', price: 1.99, tags: ['vegetable', 'healthy'] },
+  { id: 17, name: 'Lemons', brand: 'Local Farm', category: 'produce', price: 0.79, tags: ['fruit', 'cooking'] },
+
+  { id: 18, name: 'Potato Chips', brand: 'Lays', category: 'snacks', price: 3.49, tags: ['classic', 'party'] },
+  { id: 19, name: 'Chocolate Chip Cookies', brand: 'Oreo', category: 'snacks', price: 2.99, tags: ['dessert'] },
+  { id: 20, name: 'Dark Chocolate Bar', brand: 'Lindt', category: 'snacks', price: 3.29, tags: ['premium', 'gift'] },
+  { id: 21, name: 'Mixed Nuts', brand: 'Planters', category: 'snacks', price: 6.99, tags: ['healthy', 'protein'] },
+  { id: 22, name: 'Popcorn', brand: 'Orville Redenbacher', category: 'snacks', price: 2.79, tags: ['movie night'] },
+  { id: 23, name: 'Pretzels', brand: 'Rold Gold', category: 'snacks', price: 2.49, tags: ['salty'] },
+
+  { id: 24, name: 'Spring Water', brand: 'Dasani', category: 'beverages', price: 1.99, tags: ['24 pack'] },
+  { id: 25, name: 'Orange Juice', brand: 'Tropicana', category: 'beverages', price: 4.49, tags: ['breakfast', 'no pulp'] },
+  { id: 26, name: 'Cola', brand: 'Coca Cola', category: 'beverages', price: 1.79, tags: ['soda', '12 pack'] },
+  { id: 27, name: 'Ground Coffee', brand: 'Starbucks', category: 'beverages', price: 8.99, tags: ['medium roast'] },
+  { id: 28, name: 'Green Tea', brand: 'Lipton', category: 'beverages', price: 3.99, tags: ['tea bags'] },
+  { id: 29, name: 'Energy Drink', brand: 'Red Bull', category: 'beverages', price: 2.99, tags: ['caffeine'] },
+
+  { id: 30, name: 'White Bread', brand: 'Wonder', category: 'bakery', price: 2.49, tags: ['sandwich'] },
+  { id: 31, name: 'Bagels', brand: 'Thomas', category: 'bakery', price: 3.49, tags: ['breakfast', '6 pack'] },
+  { id: 32, name: 'Croissants', brand: 'Local Bakery', category: 'bakery', price: 4.99, tags: ['breakfast', 'butter'] },
+  { id: 33, name: 'Muffins', brand: 'Little Debbie', category: 'bakery', price: 3.29, tags: ['snack', '6 pack'] },
+  { id: 34, name: 'Tortillas', brand: 'Mission', category: 'bakery', price: 2.79, tags: ['wraps', '10 pack'] },
+
+  { id: 35, name: 'Jasmine Rice', brand: 'Lundberg', category: 'pantry', price: 7.99, tags: ['2 lb bag'] },
+  { id: 36, name: 'All Purpose Flour', brand: 'Gold Medal', category: 'pantry', price: 2.99, tags: ['5 lb bag'] },
+  { id: 37, name: 'Olive Oil', brand: 'Bertolli', category: 'pantry', price: 9.49, tags: ['cooking', 'extra virgin'] },
+  { id: 38, name: 'Spaghetti Pasta', brand: 'Barilla', category: 'pantry', price: 1.79, tags: ['italian', '1 lb'] },
+  { id: 39, name: 'Peanut Butter', brand: 'Jif', category: 'pantry', price: 3.99, tags: ['creamy'] },
+  { id: 40, name: 'Honey', brand: 'Nature Nate', category: 'pantry', price: 6.49, tags: ['raw', 'organic'] },
+  { id: 41, name: 'Quinoa', brand: 'Bob Red Mill', category: 'pantry', price: 5.99, tags: ['organic', 'gluten free'] },
+
+  { id: 42, name: 'Chicken Breast', brand: 'Perdue', category: 'meat', price: 7.99, tags: ['boneless', '1 lb'] },
+  { id: 43, name: 'Ground Beef', brand: 'Hormel', category: 'meat', price: 6.49, tags: ['lean', '1 lb'] },
+  { id: 44, name: 'Bacon', brand: 'Oscar Mayer', category: 'meat', price: 5.99, tags: ['thick cut'] },
+  { id: 45, name: 'Salmon Fillet', brand: 'Wild Alaskan', category: 'meat', price: 12.99, tags: ['fresh', '1 lb'] },
+  { id: 46, name: 'Turkey Sausage', brand: 'Jimmy Dean', category: 'meat', price: 4.99, tags: ['breakfast'] },
+
+  { id: 47, name: 'Toothpaste', brand: 'Colgate', category: 'household', price: 3.49, tags: ['mint', 'cavity protection'] },
+  { id: 48, name: 'Shampoo', brand: 'Pantene', category: 'household', price: 5.99, tags: ['hair care'] },
+  { id: 49, name: 'Paper Towels', brand: 'Bounty', category: 'household', price: 8.99, tags: ['6 rolls'] },
+  { id: 50, name: 'Dish Soap', brand: 'Dawn', category: 'household', price: 3.29, tags: ['ultra concentrate'] },
+];
